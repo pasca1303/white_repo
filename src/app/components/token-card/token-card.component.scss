@@ -1,0 +1,32 @@
+.token {
+	display: flex;
+	&__card {
+		width: 80%;
+		height: 60px;
+		font-size: 22px;
+		font-weight: 700;
+		background-color: rgb(55, 95, 133);
+		margin:0 20px 20px 0;
+		padding: 0px 20px 0px 20px ;
+		border-radius: 11px;
+		display: flex;
+    align-items: center;
+    justify-content: space-between;
+	}
+	&__img{
+		width: 15%;
+	}
+	&__tkn {
+		display: flex;
+		width: 300px;
+	} 
+	&__name {
+		margin-left: 10px;
+	}
+	&__price-x{
+		background-color: rgb(157, 216, 68);
+	}
+	&__price-actual {
+		background-color: rgb(157, 216, 68);
+	}
+}

@@ -1,0 +1,35 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh; /* Обеспечивает полную высоту для контейнера */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.navigation {
+  position: sticky;
+  bottom: 20px; /* Прилепляет к нижней части с отступом */
+  
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    height: 60px;
+    background-color: rgb(28, 28, 106);
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-right: 20px;
+  }
+}

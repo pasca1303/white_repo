@@ -1,0 +1,37 @@
+.transaction {
+	&__buy{
+		&-quantityPerson {
+			background-color: rgb(0, 141, 139);
+			padding: 0px 5px 0px 5px; 
+
+		}
+		&-quantityBuying{
+			background-color: rgb(0, 141, 139);
+			padding: 0px 5px 0px 5px; 
+
+		}
+	}
+	&__type{
+		background-color: rgb(0, 141, 139);
+	}
+	&__sell{
+		margin-top: 40px;
+		&-x {
+			background-color: rgb(0, 141, 139);
+			padding: 0px 7px 0px 5px; 
+
+		}
+	}
+}
+.styleItemTransStng {
+	width: 70%;
+	height: 100px;background-color: rgb(35, 27, 82);
+	color: white;
+	font-size: 2em;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px 0px 20px; 
+	box-sizing: border-box ;
+}

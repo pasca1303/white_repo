@@ -1,0 +1,4 @@
+<button class="influencers__AddButton">Add +</button>
+<div *ngFor="let influencer of influencers$ | async">
+	<app-influencer-card [influencer]="influencer"></app-influencer-card>
+</div>
